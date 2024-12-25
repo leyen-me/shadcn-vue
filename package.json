@@ -28,7 +28,9 @@
     "pub:release": "cd packages/cli && pnpm pub:release",
     "test": "pnpm --filter shadcn-vue test",
     "taze": "taze major -frI --ignore-paths ./packages/cli/test/** --exclude typescript,/@iconify/",
-    "taze:minor": "taze minor -fwri --ignore-paths ./packages/cli/test/** --exclude /@iconify/"
+    "taze:minor": "taze minor -fwri --ignore-paths ./packages/cli/test/** --exclude /@iconify/",
+    "upstream": "git fetch upstream",
+    "merge": "git merge upstream/dev"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.6.2",
