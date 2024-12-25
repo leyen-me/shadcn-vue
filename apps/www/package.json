@@ -6,7 +6,7 @@
     "dist"
   ],
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress dev --host 0.0.0.0",
     "build": "vitepress build",
     "preview": "vitepress preview",
     "typecheck": "vue-tsc",
