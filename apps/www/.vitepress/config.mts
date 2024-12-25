@@ -8,6 +8,7 @@ import { defineConfig } from 'vitepress'
 import { siteConfig } from './theme/config/site'
 import CodeWrapperPlugin from './theme/plugins/codewrapper'
 import ComponentPreviewPlugin from './theme/plugins/previewer'
+import SimpleComponentPreviewPlugin from './theme/plugins/simple-previewer'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -61,6 +62,7 @@ export default defineConfig({
     ],
     config(md) {
       md.use(ComponentPreviewPlugin)
+      md.use(SimpleComponentPreviewPlugin)
       md.use(CodeWrapperPlugin)
     },
   },

@@ -3,19 +3,19 @@ title: Button
 description: Displays a button or a component that looks like a button.
 ---
 
-<ComponentPreview name="ButtonDemo"  />
+<ComponentPreview name="ButtonDemo" />
 
 ## Installation
 
 <TabPreview name="CLI">
-<template #CLI>
+  <template #CLI>
 
 ```bash
 npx shadcn-vue@latest add button
 ```
 </template>
 
-<template #Manual>
+  <template #Manual>
 
 <Steps>
 
@@ -75,10 +75,10 @@ withDefaults(defineProps<Props>(), {
     <slot />
   </component>
 </template>
-```
+  ```
 
-</Steps>
-</template>
+  </Steps>
+  </template>
 </TabPreview>
 
 ## Usage
@@ -93,11 +93,11 @@ import { Button } from '@/components/ui/button'
 </template>
 ```
 
-## Examples
+<!-- ## Examples
 
 ### Primary
 
-<ComponentPreview name="ButtonDemo"  />
+<ComponentPreview name="ButtonDemo" />
 
 ### Secondary
 
@@ -133,4 +133,75 @@ import { Button } from '@/components/ui/button'
 
 ### As Child
 
-<ComponentPreview name="ButtonAsChildDemo" />
+<ComponentPreview name="ButtonAsChildDemo" /> -->
+
+## Examples
+
+<VPGridDemo>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonDisableDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonRoundedDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonArchiveDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonTrashDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonXDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonSparklesDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonArrowDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonRightDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonEmailDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonChevronDownDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonCancelDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonLoaderCircleDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonLoaderDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonMessagesDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonPrinterDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonAvatarDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonAvatarChevronDownDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonAddNewDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonAddNewCircleDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonAddNewCircleAnimationDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonTooltipDemo" />
+  </VPGridDemoItem>
+  <VPGridDemoItem>
+    <SimpleComponentPreview name="ButtonMenuDemo" />
+  </VPGridDemoItem>
+</VPGridDemo>
